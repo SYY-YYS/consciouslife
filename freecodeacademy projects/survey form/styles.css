@@ -1,0 +1,27 @@
+<style> 
+  #name-label {
+    color: blue;
+  }
+  #email-label {
+    font-family: monospace;
+  }
+  #number-label {
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes float {
+    0% {
+      position: relative;
+      left: 10px;
+    }
+    50% {
+      position: relative;
+      left: 150px;
+    }
+    100% {
+      position: relative;
+      left: 10px;
+    }
+  }
+</style>
